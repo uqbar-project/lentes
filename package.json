@@ -1,0 +1,33 @@
+{
+  "name": "lentes",
+  "version": "1.0.0",
+  "description": "Lentes is an idiomatic library for constructing fully typed lenses in a declarative and string-free way.",
+  "repository": "https://github.com/uqbar-project/lentes",
+  "author": "Nicolás Scarcella",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "lint": "tslint src/index.ts",
+    "test": "mocha --recursive --require ts-node/register src/**/*.test.tsx",
+    "prepublishOnly": "yarn install && yarn lint && yarn test && yarn build"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.3",
+    "@types/mocha": "^5.2.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1",
+    "ts-mocha": "^1.2.0",
+    "tslint": "^5.10.0",
+    "typescript": "^2.8.3"
+  },
+  "keywords": [
+    "functional",
+    "syntax sugar",
+    "idiomatic"
+  ]
+}
