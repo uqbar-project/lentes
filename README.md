@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/uqbar-project/lentes.svg?branch=master)](https://travis-ci.org/uqbar-project/lentes)
 [![npm version](https://badge.fury.io/js/lentes.svg)](https://badge.fury.io/js/lentes)
 
-**Lentes** is an idiomatic library for constructing fully typed [lenses](https://medium.com/@dtipson/functional-lenses-d1aba9e52254), a nice functional design pattern for navigating and transforming immutable objects, in a declarative and string-free way.
+**Lentes** is an idiomatic TypeScript library for constructing fully typed [lenses](https://medium.com/@dtipson/functional-lenses-d1aba9e52254), a nice functional design pattern for navigating and transforming immutable objects, in a declarative and string-free way.
 
 
 ## Installation

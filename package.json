@@ -1,7 +1,7 @@
 {
   "name": "lentes",
   "version": "1.0.0",
-  "description": "Lentes is an idiomatic library for constructing fully typed lenses in a declarative and string-free way.",
+  "description": "Lentes is an idiomatic TypeScript library for constructing fully typed lenses in a declarative and string-free way.",
   "repository": "https://github.com/uqbar-project/lentes",
   "author": "Nicolás Scarcella",
   "license": "ISC",
