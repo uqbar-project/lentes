@@ -43,7 +43,7 @@ you can **do this:**
 
 ```typescript
 const user = { ... }
-const lens = lens(user).transactions[0].ammount
+const lens = lens(user).transactions[1].ammount
 
 const updatedUser = lens(user, 25)
 ```
@@ -117,7 +117,7 @@ const yourObject = { x: { ys: [{z: 1}, {z: 2}, {z: 3}] } }
 const $yourObject = lens(yourObject)
 const l = $yourObject.x.ys[0].z
 
-// All these lines return /x/ys/0/z/
+// All these lines return "/x/ys/0/z/"
 l.toString()
 l.toPrimitive()
 `${l}`
